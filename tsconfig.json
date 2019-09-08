@@ -1,9 +1,8 @@
 {
   "compilerOptions": {
-    "module": "system",
-    "noImplicitAny": true,
+    "module": "commonjs",
+    "esModuleInterop": true,
     "removeComments": true,
-    "preserveConstEnums": true,
     "outDir": "dist/",
     "sourceMap": true
   },

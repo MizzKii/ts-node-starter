@@ -1,5 +1,7 @@
-const printHello = (name: string) => {
-  console.log(`Hello ${name}`)
-}
+import express from 'express'
 
-printHello('test')
+const app = express()
+
+app.listen(3000, () => {
+  console.info('Start on port: 3000')
+})
